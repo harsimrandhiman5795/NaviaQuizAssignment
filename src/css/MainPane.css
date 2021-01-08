@@ -1,0 +1,62 @@
+section{
+    /* border: 1px solid black; */
+}
+
+.questionPane{
+    width: 80%;
+    height: 70%;
+    /* float: left; */
+    left:0;
+    position: fixed;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.controllerPane{
+    position: absolute;
+    display: block;
+    bottom: 20%;
+    width: 80%;
+    top: 80%;
+    height: 20%;
+    align-content: center;
+    text-align: center;
+}
+
+.extras{
+    width: 20%;
+    height: 100%;
+    float: right;
+    right: 0;
+    position: fixed;
+
+}
+.timerPane{
+    width: 20%;
+    height: 20%;
+    float: right;
+    right:0;
+    position: fixed;
+}
+.summryPane{
+    width: 20%;
+    height: 80%;
+    float: right;
+    right:0;
+    position: fixed;
+    top: 30%;
+}
+.startPage{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100px;
+	height: 100px;	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0; 	
+	margin: auto;
+}

@@ -1,0 +1,11 @@
+.naviaFooter{
+    background-color: #282c34;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    vertical-align: auto;
+}
