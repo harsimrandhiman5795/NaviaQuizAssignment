@@ -72,7 +72,7 @@ export default class QuizPage extends React.Component {
         questions.forEach((question, i) => {
             rows.push(<tr key={'Question' + i}>
                 <td>
-                    {'Question ' + i}
+                    {'Question ' + i+1}
                 </td>
                 <td>
                     {question.status}
